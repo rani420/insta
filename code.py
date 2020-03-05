@@ -9,7 +9,7 @@ headers['User-Agent'] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/5
 
 
 q_hash = 'e769aa130647d2354c40ea6a439bfc08'
-insta_id = '9201133768'
+insta_id = input('enter instagram id to scrape data')
 after = ''
 count = 50
 x = 1
