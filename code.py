@@ -26,7 +26,7 @@ for i in range(15):
       
       try:
         shortcode = r_json['data']['user']['edge_owner_to_timeline_media']['edges'][c]['node']['shortcode']
-        print(shortcode)
+        print(Insta(shortcode).get_images())
       except Exception:
         print('process completed')
   after = end_cursor
